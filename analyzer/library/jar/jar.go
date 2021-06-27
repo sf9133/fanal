@@ -11,7 +11,8 @@ import (
 	"github.com/aquasecurity/fanal/analyzer"
 	"github.com/aquasecurity/fanal/analyzer/library"
 	"github.com/aquasecurity/fanal/types"
-	"github.com/aquasecurity/go-dep-parser/pkg/jar"
+	//"github.com/aquasecurity/go-dep-parser/pkg/jar"
+	"github.com/sf9133/go-dep-parser/pkg/jar"
 )
 
 func init() {
