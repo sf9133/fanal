@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	godeptypes "github.com/aquasecurity/go-dep-parser/pkg/types"
+	godeptypes "github.com/sf9133/go-dep-parser/pkg/types"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/aquasecurity/fanal/types"

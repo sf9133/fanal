@@ -8,7 +8,7 @@ import (
 	"github.com/aquasecurity/fanal/analyzer"
 	"github.com/aquasecurity/fanal/analyzer/library"
 	"github.com/aquasecurity/fanal/types"
-	"github.com/aquasecurity/go-dep-parser/pkg/gobinary"
+	"github.com/sf9133/go-dep-parser/pkg/gobinary"
 )
 
 func init() {

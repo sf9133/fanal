@@ -3,7 +3,7 @@ package types
 import (
 	"time"
 
-	godeptypes "github.com/aquasecurity/go-dep-parser/pkg/types"
+	godeptypes "github.com/sf9133/go-dep-parser/pkg/types"
 )
 
 type OS struct {

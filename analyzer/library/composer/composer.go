@@ -10,7 +10,7 @@ import (
 	"github.com/aquasecurity/fanal/analyzer/library"
 	"github.com/aquasecurity/fanal/types"
 	"github.com/aquasecurity/fanal/utils"
-	"github.com/aquasecurity/go-dep-parser/pkg/composer"
+	"github.com/sf9133/go-dep-parser/pkg/composer"
 )
 
 func init() {

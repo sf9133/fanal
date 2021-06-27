@@ -23,7 +23,7 @@ import (
 	"github.com/aquasecurity/fanal/cache"
 	"github.com/aquasecurity/fanal/image"
 	"github.com/aquasecurity/fanal/types"
-	godeptypes "github.com/aquasecurity/go-dep-parser/pkg/types"
+	godeptypes "github.com/sf9133/go-dep-parser/pkg/types"
 	dtypes "github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/stretchr/testify/assert"

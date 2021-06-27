@@ -17,7 +17,7 @@ import (
 	_ "github.com/aquasecurity/fanal/analyzer/all"
 	aos "github.com/aquasecurity/fanal/analyzer/os"
 	"github.com/aquasecurity/fanal/types"
-	godeptypes "github.com/aquasecurity/go-dep-parser/pkg/types"
+	godeptypes "github.com/sf9133/go-dep-parser/pkg/types"
 )
 
 type mockConfigAnalyzer struct{}

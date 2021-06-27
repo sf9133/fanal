@@ -14,7 +14,7 @@ import (
 	bolt "go.etcd.io/bbolt"
 
 	"github.com/aquasecurity/fanal/types"
-	depTypes "github.com/aquasecurity/go-dep-parser/pkg/types"
+	depTypes "github.com/sf9133/go-dep-parser/pkg/types"
 )
 
 func newTempDB(t *testing.T, dbPath string) (string, error) {

@@ -10,7 +10,7 @@ import (
 
 	"github.com/aquasecurity/fanal/analyzer"
 	"github.com/aquasecurity/fanal/types"
-	godeptypes "github.com/aquasecurity/go-dep-parser/pkg/types"
+	godeptypes "github.com/sf9133/go-dep-parser/pkg/types"
 )
 
 func Test_gomodAnalyzer_Analyze(t *testing.T) {

@@ -17,7 +17,7 @@ import (
 	"github.com/aquasecurity/fanal/cache"
 	"github.com/aquasecurity/fanal/image"
 	"github.com/aquasecurity/fanal/types"
-	depTypes "github.com/aquasecurity/go-dep-parser/pkg/types"
+	depTypes "github.com/sf9133/go-dep-parser/pkg/types"
 )
 
 func TestArtifact_Inspect(t *testing.T) {
