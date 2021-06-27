@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/types"
 )
 
 func TestParseApkInfo(t *testing.T) {

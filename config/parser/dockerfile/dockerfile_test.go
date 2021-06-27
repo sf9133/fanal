@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/config/parser/dockerfile"
+	"github.com/sf9133/fanal/config/parser/dockerfile"
 )
 
 func TestParser_Parse(t *testing.T) {

@@ -6,15 +6,15 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aquasecurity/fanal/utils"
+	"github.com/sf9133/fanal/utils"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/types"
 
 	"golang.org/x/xerrors"
 
-	aos "github.com/aquasecurity/fanal/analyzer/os"
+	aos "github.com/sf9133/fanal/analyzer/os"
 
-	"github.com/aquasecurity/fanal/analyzer"
+	"github.com/sf9133/fanal/analyzer"
 )
 
 func init() {

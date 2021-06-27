@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/analyzer/config"
-	"github.com/aquasecurity/fanal/cache"
+	"github.com/sf9133/fanal/analyzer/config"
+	"github.com/sf9133/fanal/cache"
 )
 
 func setupGitServer() (*httptest.Server, error) {
@@ -90,16 +90,16 @@ func Test_newURL(t *testing.T) {
 		{
 			name: "happy path",
 			args: args{
-				rawurl: "https://github.com/aquasecurity/fanal",
+				rawurl: "https://github.com/sf9133/fanal",
 			},
-			want: "https://github.com/aquasecurity/fanal",
+			want: "https://github.com/sf9133/fanal",
 		},
 		{
 			name: "happy path: no scheme",
 			args: args{
-				rawurl: "github.com/aquasecurity/fanal",
+				rawurl: "github.com/sf9133/fanal",
 			},
-			want: "https://github.com/aquasecurity/fanal",
+			want: "https://github.com/sf9133/fanal",
 		},
 		{
 			name: "sad path: invalid url",

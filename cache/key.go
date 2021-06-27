@@ -8,7 +8,7 @@ import (
 	"golang.org/x/mod/sumdb/dirhash"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/analyzer/config"
+	"github.com/sf9133/fanal/analyzer/config"
 )
 
 func CalcKey(id string, versions map[string]int, opt *config.ScannerOption) (string, error) {

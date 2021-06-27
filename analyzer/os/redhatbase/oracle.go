@@ -6,12 +6,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aquasecurity/fanal/analyzer"
+	"github.com/sf9133/fanal/analyzer"
 
-	"github.com/aquasecurity/fanal/utils"
+	"github.com/sf9133/fanal/utils"
 
-	aos "github.com/aquasecurity/fanal/analyzer/os"
-	"github.com/aquasecurity/fanal/types"
+	aos "github.com/sf9133/fanal/analyzer/os"
+	"github.com/sf9133/fanal/types"
 	"golang.org/x/xerrors"
 )
 

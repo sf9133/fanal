@@ -8,7 +8,7 @@ import (
 	multierror "github.com/hashicorp/go-multierror"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/types"
 )
 
 type extender interface {

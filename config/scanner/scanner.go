@@ -7,8 +7,8 @@ import (
 	"github.com/open-policy-agent/opa/rego"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/policy"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/policy"
+	"github.com/sf9133/fanal/types"
 )
 
 var (

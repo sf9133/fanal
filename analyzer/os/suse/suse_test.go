@@ -4,12 +4,12 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/aquasecurity/fanal/analyzer"
+	"github.com/sf9133/fanal/analyzer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/analyzer/os"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/analyzer/os"
+	"github.com/sf9133/fanal/types"
 )
 
 func Test_suseOSAnalyzer_Analyze(t *testing.T) {

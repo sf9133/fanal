@@ -19,14 +19,14 @@ import (
 	testcontainers "github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	_ "github.com/aquasecurity/fanal/analyzer/all"
-	"github.com/aquasecurity/fanal/analyzer/config"
-	"github.com/aquasecurity/fanal/applier"
-	aimage "github.com/aquasecurity/fanal/artifact/image"
-	"github.com/aquasecurity/fanal/cache"
-	"github.com/aquasecurity/fanal/image"
-	testdocker "github.com/aquasecurity/fanal/test/integration/docker"
-	"github.com/aquasecurity/fanal/types"
+	_ "github.com/sf9133/fanal/analyzer/all"
+	"github.com/sf9133/fanal/analyzer/config"
+	"github.com/sf9133/fanal/applier"
+	aimage "github.com/sf9133/fanal/artifact/image"
+	"github.com/sf9133/fanal/cache"
+	"github.com/sf9133/fanal/image"
+	testdocker "github.com/sf9133/fanal/test/integration/docker"
+	"github.com/sf9133/fanal/types"
 )
 
 const (

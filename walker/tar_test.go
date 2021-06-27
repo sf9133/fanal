@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/fanal/analyzer"
+	"github.com/sf9133/fanal/analyzer"
 
-	"github.com/aquasecurity/fanal/walker"
+	"github.com/sf9133/fanal/walker"
 	"github.com/stretchr/testify/require"
 )
 

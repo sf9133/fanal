@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	_ "github.com/aquasecurity/fanal/analyzer/all"
-	"github.com/aquasecurity/fanal/analyzer/config"
-	"github.com/aquasecurity/fanal/cache"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/analyzer"
+	_ "github.com/sf9133/fanal/analyzer/all"
+	"github.com/sf9133/fanal/analyzer/config"
+	"github.com/sf9133/fanal/cache"
+	"github.com/sf9133/fanal/types"
 )
 
 func TestArtifact_Inspect(t *testing.T) {

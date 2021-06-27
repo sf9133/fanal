@@ -8,8 +8,8 @@ import (
 	"github.com/open-policy-agent/conftest/parser/json"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/analyzer"
+	"github.com/sf9133/fanal/types"
 )
 
 const version = 1

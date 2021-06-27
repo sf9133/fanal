@@ -12,15 +12,15 @@ import (
 	"golang.org/x/sync/semaphore"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/analyzer/config"
-	"github.com/aquasecurity/fanal/artifact"
-	"github.com/aquasecurity/fanal/cache"
-	"github.com/aquasecurity/fanal/config/scanner"
-	"github.com/aquasecurity/fanal/image"
-	"github.com/aquasecurity/fanal/log"
-	"github.com/aquasecurity/fanal/types"
-	"github.com/aquasecurity/fanal/walker"
+	"github.com/sf9133/fanal/analyzer"
+	"github.com/sf9133/fanal/analyzer/config"
+	"github.com/sf9133/fanal/artifact"
+	"github.com/sf9133/fanal/cache"
+	"github.com/sf9133/fanal/config/scanner"
+	"github.com/sf9133/fanal/image"
+	"github.com/sf9133/fanal/log"
+	"github.com/sf9133/fanal/types"
+	"github.com/sf9133/fanal/walker"
 )
 
 const (

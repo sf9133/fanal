@@ -10,9 +10,9 @@ import (
 	"golang.org/x/sync/semaphore"
 	"golang.org/x/xerrors"
 
-	aos "github.com/aquasecurity/fanal/analyzer/os"
-	"github.com/aquasecurity/fanal/log"
-	"github.com/aquasecurity/fanal/types"
+	aos "github.com/sf9133/fanal/analyzer/os"
+	"github.com/sf9133/fanal/log"
+	"github.com/sf9133/fanal/types"
 )
 
 var (

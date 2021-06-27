@@ -10,13 +10,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	_ "github.com/aquasecurity/fanal/analyzer/all"
-	"github.com/aquasecurity/fanal/analyzer/config"
-	image2 "github.com/aquasecurity/fanal/artifact/image"
-	"github.com/aquasecurity/fanal/cache"
-	"github.com/aquasecurity/fanal/image"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/analyzer"
+	_ "github.com/sf9133/fanal/analyzer/all"
+	"github.com/sf9133/fanal/analyzer/config"
+	image2 "github.com/sf9133/fanal/artifact/image"
+	"github.com/sf9133/fanal/cache"
+	"github.com/sf9133/fanal/image"
+	"github.com/sf9133/fanal/types"
 	depTypes "github.com/sf9133/go-dep-parser/pkg/types"
 )
 

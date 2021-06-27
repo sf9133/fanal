@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/go-containerregistry/pkg/authn"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/types"
 	"github.com/stretchr/testify/assert"
 )
 

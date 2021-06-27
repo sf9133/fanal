@@ -4,10 +4,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	aos "github.com/aquasecurity/fanal/analyzer/os"
-	"github.com/aquasecurity/fanal/types"
+	aos "github.com/sf9133/fanal/analyzer/os"
+	"github.com/sf9133/fanal/types"
 
-	"github.com/aquasecurity/fanal/analyzer"
+	"github.com/sf9133/fanal/analyzer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

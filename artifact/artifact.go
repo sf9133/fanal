@@ -3,7 +3,7 @@ package artifact
 import (
 	"context"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/types"
 )
 
 type Artifact interface {

@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/analyzer/config/toml"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/analyzer"
+	"github.com/sf9133/fanal/analyzer/config/toml"
+	"github.com/sf9133/fanal/types"
 )
 
 func Test_tomlConfigAnalyzer_Analyze(t *testing.T) {

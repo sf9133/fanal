@@ -7,7 +7,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/types"
 	"github.com/kylelemons/godebug/pretty"
 )
 

@@ -4,9 +4,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/aquasecurity/fanal/applier"
-	"github.com/aquasecurity/fanal/cache"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/applier"
+	"github.com/sf9133/fanal/cache"
+	"github.com/sf9133/fanal/types"
 	depTypes "github.com/sf9133/go-dep-parser/pkg/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

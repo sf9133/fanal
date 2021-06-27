@@ -5,7 +5,7 @@ package artifact
 import (
 	context "context"
 
-	types "github.com/aquasecurity/fanal/types"
+	types "github.com/sf9133/fanal/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

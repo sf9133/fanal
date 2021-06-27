@@ -9,11 +9,11 @@ import (
 
 	git "github.com/go-git/go-git/v5"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	"github.com/aquasecurity/fanal/analyzer/config"
-	"github.com/aquasecurity/fanal/artifact"
-	"github.com/aquasecurity/fanal/artifact/local"
-	"github.com/aquasecurity/fanal/cache"
+	"github.com/sf9133/fanal/analyzer"
+	"github.com/sf9133/fanal/analyzer/config"
+	"github.com/sf9133/fanal/artifact"
+	"github.com/sf9133/fanal/artifact/local"
+	"github.com/sf9133/fanal/cache"
 )
 
 func NewArtifact(rawurl string, c cache.ArtifactCache, disabled []analyzer.Type, opt config.ScannerOption) (
@@ -59,7 +59,7 @@ func newURL(rawurl string) (*url.URL, error) {
 		return nil, err
 	}
 	// "https://" can be omitted
-	// e.g. github.com/aquasecurity/fanal
+	// e.g. github.com/sf9133/fanal
 	if u.Scheme == "" {
 		u.Scheme = "https"
 	}

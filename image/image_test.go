@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/types"
 	"github.com/aquasecurity/testdocker/auth"
 	"github.com/aquasecurity/testdocker/engine"
 	"github.com/aquasecurity/testdocker/registry"

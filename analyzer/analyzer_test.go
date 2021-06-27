@@ -13,10 +13,10 @@ import (
 	"golang.org/x/sync/semaphore"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/analyzer"
-	_ "github.com/aquasecurity/fanal/analyzer/all"
-	aos "github.com/aquasecurity/fanal/analyzer/os"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/analyzer"
+	_ "github.com/sf9133/fanal/analyzer/all"
+	aos "github.com/sf9133/fanal/analyzer/os"
+	"github.com/sf9133/fanal/types"
 	godeptypes "github.com/sf9133/go-dep-parser/pkg/types"
 )
 

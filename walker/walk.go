@@ -4,9 +4,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aquasecurity/fanal/analyzer"
+	"github.com/sf9133/fanal/analyzer"
 
-	"github.com/aquasecurity/fanal/utils"
+	"github.com/sf9133/fanal/utils"
 )
 
 var (

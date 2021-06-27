@@ -20,8 +20,8 @@ import (
 	"github.com/open-policy-agent/opa/version"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/fanal/types"
-	"github.com/aquasecurity/fanal/utils"
+	"github.com/sf9133/fanal/types"
+	"github.com/sf9133/fanal/utils"
 )
 
 // Engine represents the policy engine.

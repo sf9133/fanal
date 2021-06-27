@@ -7,7 +7,7 @@ import (
 	godeptypes "github.com/sf9133/go-dep-parser/pkg/types"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/types"
 )
 
 func TestApplyLayers(t *testing.T) {

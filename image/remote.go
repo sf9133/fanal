@@ -12,8 +12,8 @@ import (
 	v1 "github.com/google/go-containerregistry/pkg/v1"
 	"github.com/google/go-containerregistry/pkg/v1/remote"
 
-	"github.com/aquasecurity/fanal/image/token"
-	"github.com/aquasecurity/fanal/types"
+	"github.com/sf9133/fanal/image/token"
+	"github.com/sf9133/fanal/types"
 )
 
 func tryRemote(ctx context.Context, ref name.Reference, option types.DockerOption) (v1.Image, extender, error) {
